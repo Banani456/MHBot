@@ -46,10 +46,5 @@
          "responses": ["Looks like you might have an anxiety disorder", "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
          "context_filter": "disorder"
         }
-        {"tag": "dissociative",
-         "patterns": ["feeling disconnected from yourself and the world around you", "forgetting about certain time periods, events and personal information", "feeling uncertain about who you are", "having multiple distinct identities", "feeling little or no physical pain"],
-         "responses": ["Looks like you might have a type of dissociative disorder", "I think you have dissociative disorder", "Based on your symptoms you might have a dissociative disorder"],
-         "context_filter": "disorder"
-        }
    ]
 }
