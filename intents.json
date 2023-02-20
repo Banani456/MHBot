@@ -42,8 +42,8 @@
          "context_set": "help"
         },
         {"tag": "anxiety",
-         "patterns": ["Feeling nervous, restless or tense", 'Having a sense of impending danger, panic or doom', 'Having an increased heart rate', 'Breathing rapidly (hyperventilation)', 'Sweating', 'Trembling', 'Feeling weak or tired', 'Trouble concentrating or thinking about anything other than the present worry', 'Having trouble sleeping', 'Experiencing gastrointestinal (GI) problems', 'Having difficulty controlling worry', 'Having the urge to avoid things that trigger anxiety'],
-         "responses": ["Looks like you might have an anxiety disorder", "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
+         "patterns": ["Feeling nervous, restless or tense", "Having a sense of impending danger, panic or doom", "Having an increased heart rate", 'Breathing rapidly (hyperventilation)', 'Sweating', 'Trembling', 'Feeling weak or tired', 'Trouble concentrating or thinking about anything other than the present worry', 'Having trouble sleeping', 'Experiencing gastrointestinal (GI) problems', 'Having difficulty controlling worry', 'Having the urge to avoid things that trigger anxiety'],
+         "responses": ['Looks like you might have an anxiety disorder', "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
          "context_filter": "disorder"
         }
         {"tag": "dissociative",
