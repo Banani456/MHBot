@@ -46,5 +46,5 @@
          "responses": ["Looks like you might have an anxiety disorder", "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
          "context_filter": "help"
         }
-   ]
+   ],
 }
