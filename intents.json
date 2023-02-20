@@ -36,15 +36,20 @@
          "patterns": ["ive been taking or milligrams or times recommended amount and ive fallen asleep a lot faster but i also feel like so funny", "i have seen heard and read over the past couple of days i am left feeling impressed by more than a few companies", "i keep feeling pleasantly surprised at his supportiveness and also his ease in new situations", "i am now nearly finished the week detox and i feel amazing", "i too feel as if i am a stranger in a strange land and i am raising my son in a place that is not his father s ancestral home", "i started feeling funny and then friday i woke up sick as a dog", "im certainly not going to sit and tell you whats going on in my personal life but i feel that if you were ever curious about whats going in my life all youd have to do is watch the show", "im sorry that there wasnt more humor in this post but im not feeling all that funny", "i want to hold this feeling of shocked awe and wonder forever", "i will enclose her verses on her could not weigh much more thinking and feeling curious to hear the odd couple"],
          "responses": ["You seem surprised", "Exciting!"]
         },
-        {"tag": "deliveryoption",
-         "patterns": ["Do you provide home delivery?", "Do you deliver the food?", "What are the home delivery options?" ],
-         "responses": ["Yes, we provide home delivery through UBER Eats and Zomato?", "We have home delivery options through UBER Eats and Zomato"],
-         "context_set": "food"
+        {"tag": "disorderquestion",
+         "patterns": ["Can you help me identify what disorders I might have?", "Figure out what mental health issue I have", "Can you fingure out what mental health issues I have?" ],
+         "responses": ["Yes, if you give me some symptoms, I could try estimating what type of disorders you could have", "Yes, gimme a list of symptoms rq"],
+         "context_set": "help"
         },
-        {"tag": "menu",
-         "patterns": ["What is your Menu?", "What are the main course options?", "Can you tell me the most delicious dish from the menu?", "What is the today's special?"],
-         "responses": ["You can visit www.mymenu.com for menu options", "You can check out the food menu at www.mymenu.com", "You can check various delicacies given in the food menu at www.mymenu.com"],
-         "context_filter": "food"
+        {"tag": "anxiety",
+         "patterns": ['Feeling nervous, restless or tense', 'Having a sense of impending danger, panic or doom', 'Having an increased heart rate', 'Breathing rapidly (hyperventilation)', 'Sweating', 'Trembling', 'Feeling weak or tired', 'Trouble concentrating or thinking about anything other than the present worry', 'Having trouble sleeping', 'Experiencing gastrointestinal (GI) problems', 'Having difficulty controlling worry', 'Having the urge to avoid things that trigger anxiety'],
+         "responses": ["Looks like you might have an anxiety disorder", "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
+         "context_filter": "disorder"
+        }
+        {"tag": "dissociative",
+         "patterns": ['feeling disconnected from yourself and the world around you', 'forgetting about certain time periods, events and personal information', 'feeling uncertain about who you are', 'having multiple distinct identities', 'feeling little or no physical pain'],
+         "responses": ["Looks like you might have a type of dissociative disorder", "I think you have dissociative disorder", "Based on your symptoms you might have a dissociative disorder"],
+         "context_filter": "disorder"
         }
    ]
 }
