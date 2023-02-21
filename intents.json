@@ -43,7 +43,12 @@
         },
         {"tag": "anxiety",
          "patterns": ["Feeling nervous, restless or tense", "Having a sense of impending danger, panic or doom", "Having an increased heart rate", "Breathing rapidly (hyperventilation)", "Sweating", "Trembling", "Feeling weak or tired", "Trouble concentrating or thinking about anything other than the present worry", "Having trouble sleeping", "Experiencing gastrointestinal (GI) problems", "Having difficulty controlling worry", "Having the urge to avoid things that trigger anxiety"],
-         "responses": ["Looks like you might have an anxiety disorder", "I think you have anxiety", "Based on your symptoms you might have an anxiety disorder"],
+         "responses": ["Looks like you might have an anxiety disorder - refer to this site for more information https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961, keep talkin!", "I think you have anxiety - refer to this site for more information https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961, keep talkin!", "Based on your symptoms you might have an anxiety disorder - refer to this site for more information https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961, keep talkin!"],
+         "context_filter": "help"
+        },
+        {"tag": "dissociative",
+         "patterns": ["feeling disconnected from yourself and the world around you", "forgetting about certain time periods, events and personal information", "feeling uncertain about who you are", "having multiple distinct identities", "feeling little or no physical pain"],
+         "responses": ["Looks like you might have an dissociative disorder - refer to this site https://www.nhs.uk/mental-health/conditions/dissociative-disorders/ for more information, keep talkin!", "I think you have dissociative disorders - refer to this site https://www.nhs.uk/mental-health/conditions/dissociative-disorders/ for more information, keep talkin!", "Based on your symptoms you might have a dissociative disorder - refer to this site https://www.nhs.uk/mental-health/conditions/dissociative-disorders/ for more information, keep talkin!"],
          "context_filter": "help"
         }
    ]
